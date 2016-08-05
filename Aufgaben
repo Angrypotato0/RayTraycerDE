@@ -5,3 +5,19 @@ Kamera E
 
 SDF Loader D
 Beleuchtungsmodell E
+
+
+config für pull und push : D
+
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/Angrypotato0/RayTraycerDE.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
